@@ -135,6 +135,10 @@ h1, h2, h3, h4, h5, h6 {
 -------------------------------------------------- */
 /* Not required for template or sticky footer method. */
 
+body {
+  padding-top: 56px;
+}
+
 body > .container {
   padding: 60px 15px 0;
 }
@@ -194,12 +198,12 @@ aside > .p-3 {
 .first-screan {
   background-image: url("img/98916643479b4aac97692358dabcaa98_2400x1350.jpg");
   background-size: cover;
-  height: 40vh;
+  height: 30vh;
 }
 
 @media (min-width: 768px) {
   .first-screan {
-    height: 70vh;
+    height: 60vh;
   }  
 }
 
@@ -218,7 +222,7 @@ aside > .p-3 {
 }
 
 .bg-dark {
-  background-color: #000000f0!important;
+  background-color: #000000!important;
 }
 
 .display-4 {
